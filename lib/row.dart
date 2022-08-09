@@ -9,32 +9,37 @@ class RowScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Row - Fila'),),
-      body: Row(
+      body: ListView(
+        scrollDirection: Axis.horizontal,
         children: [
-          Container(
-            color: Colors.blue,
-            width: 10.0,
-            height: 250.0,
-          ),
-          Container(
-            color: Colors.green,
-            height: 250.0,
-            width: 10.0,
-          ),
-          Container(
-            color: Colors.red,
-            height: 250.0,
-            width: 10.0,
-          ),
-          Container(
-            color: Colors.orange,
-            height: 250.0,
-            width: 10.0,
-          ),
-          Container(
-            color: Colors.black,
-            height: 250.0,
-            width: 10.0,
+          Row(
+            children: [
+              Container(
+                color: Colors.blue,
+                width: 150.0,
+                height: 250.0,
+              ),
+              Container(
+                color: Colors.green,
+                height: 250.0,
+                width: 150.0,
+              ),
+              Container(
+                color: Colors.red,
+                height: 250.0,
+                width: 150.0,
+              ),
+              Container(
+                color: Colors.orange,
+                height: 250.0,
+                width: 150.0,
+              ),
+              Container(
+                color: Colors.black,
+                height: 250.0,
+                width: 150.0,
+              ),
+            ],
           ),
         ],
       ),
