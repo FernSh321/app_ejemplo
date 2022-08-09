@@ -26,7 +26,10 @@ class ColumnScreen extends StatelessWidget {
             color: Colors.orange,
             height: 100.0,
           ),
-          
+          Container(
+            color: Colors.black,
+            height: 100.0,
+          ),
         ],
       ),
     );
