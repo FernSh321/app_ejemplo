@@ -13,23 +13,28 @@ class RowScreen extends StatelessWidget {
         children: [
           Container(
             color: Colors.blue,
+            width: 10.0,
             height: 250.0,
           ),
           Container(
             color: Colors.green,
             height: 250.0,
+            width: 10.0,
           ),
           Container(
             color: Colors.red,
             height: 250.0,
+            width: 10.0,
           ),
           Container(
             color: Colors.orange,
             height: 250.0,
+            width: 10.0,
           ),
           Container(
             color: Colors.black,
             height: 250.0,
+            width: 10.0,
           ),
         ],
       ),
