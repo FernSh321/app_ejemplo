@@ -8,27 +8,28 @@ class ColumnScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      appBar: AppBar(),
+      body: ListView(
         children: [
           Container(
             color: Colors.blue,
-            height: 100.0,
+            height: 250.0,
           ),
           Container(
             color: Colors.green,
-            height: 100.0,
+            height: 250.0,
           ),
           Container(
             color: Colors.red,
-            height: 100.0,
+            height: 250.0,
           ),
           Container(
             color: Colors.orange,
-            height: 100.0,
+            height: 250.0,
           ),
           Container(
             color: Colors.black,
-            height: 100.0,
+            height: 250.0,
           ),
         ],
       ),
