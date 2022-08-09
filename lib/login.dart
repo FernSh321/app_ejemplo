@@ -1,5 +1,6 @@
 import 'package:app_ejemplo/column.dart';
 import 'package:app_ejemplo/home.dart';
+import 'package:app_ejemplo/row.dart';
 import 'package:flutter/material.dart';
 
 class Loginscreen extends StatefulWidget {
@@ -118,7 +119,12 @@ class _LoginscreenState extends State<Loginscreen> {
                                 'assets/images/icons/google_logo.png'),
                           ),
                           color: Colors.black,
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const RowScreen()),
+                      );
+                          },
                         ),
                       ),
                       Ink(
